@@ -54,16 +54,16 @@ const object = {
 };
 console.log('object', object);
 
-class Lammas {
-    name = '';
+//class Lammas {
+//    name = '';
     
-    getName () {
-        return this.name;
-    }
-    setName(name) {
-        this.name = name;
-    }
-}
+//    getName () {
+//        return this.name;
+ //   }
+ //   setName(name) {
+ //       this.name = name;
+  //  }
+//}
 
 //const 1 = new Lammas('Shawn');
 //1.setName('dolly');
@@ -84,4 +84,3 @@ arr.forEach(function(value, index) {
 
 //string + number
 console.log('sum("aaa", 5) = ', sum('aaa', 5));
-
